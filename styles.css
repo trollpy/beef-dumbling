@@ -18,6 +18,7 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     background-color: var(--light-color);
+    
 }
 .container {
     width: 90%;
@@ -151,9 +152,10 @@ nav {
 
 /* Mini Hero Section */
 .mini-hero {
-    background-color: var(--secondary-color);
+    background: url(background2.webp) no-repeat center center/cover;
     padding: 40px 0;
     text-align: center;
+    height: 580px;
 }
 
 .mini-hero h1 {
